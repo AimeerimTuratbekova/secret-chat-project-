@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Secret P2P Chat</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<div class="container">
+    <h1>🔐 Secret Chat</h1>
+
+    <div id="auth">
+        <input id="nickname" type="text" placeholder="Your nickname" />
+        <input id="password" type="password" placeholder="Shared password" />
+        <button id="joinBtn">Join Chat</button>
+    </div>
+
+    <div id="chat" style="display:none;">
+        <div id="chatBox"></div>
+        <input id="message" type="text" placeholder="Type your message..." />
+        <button id="sendBtn">Send</button>
+    </div>
+</div>
+
+<script src="main.js"></script>
+</body>
+</html>
